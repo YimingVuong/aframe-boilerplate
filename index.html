@@ -7,12 +7,14 @@
     <a-scene>
        <a-assets>
     <img id="boxTexture" src="img/2.jpg">
+    <img id="groundTexture" src="https://cdn.aframe.io/a-painter/images/floor.jpg">
   </a-assets>
 
      <a-sphere src="#boxTexture" position="0 2 -5" rotation="0 90 45"
     scale="2 2 2"></a-sphere>
 
-    <a-entity environment="preset: japan; dressingAmount: 500"></a-entity>
+    <a-entity environment="preset: forest; dressingAmount: 500"></a-entity>
+    <a-plane src="#groundTexture" rotation="-90 0 0" width="30" height="30" repeat="10 10"></a-plane>
 
     </a-scene>
   </body>
