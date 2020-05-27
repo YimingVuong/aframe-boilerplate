@@ -28,9 +28,10 @@
     <a-scene>
   <a-assets>
 
-    <a-entity
-  class="link"
-  geometry="primitive: plane; height: 1; width: 1"></a-entity>
+  <a-entity class="link"
+  geometry="primitive: plane; height: 1; width: 1"
+  material="shader: flat; src: #cubes-thumb"
+  sound="on: click; src: #click-sound"></a-entity>
 
     <audio id="click-sound" src="https://cdn.aframe.io/360-image-gallery-boilerplate/audio/click.ogg"></audio>
 
